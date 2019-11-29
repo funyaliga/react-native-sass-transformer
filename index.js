@@ -1,6 +1,6 @@
 var sass = require("node-sass");
 var semver = require("semver");
-var css2rn = require("css-to-react-native-transform").default;
+var css2rn = require("@funya._./css-to-react-native-transform").default;
 var path = require("path");
 var fs = require("fs");
 var appRoot = require("app-root-path");
